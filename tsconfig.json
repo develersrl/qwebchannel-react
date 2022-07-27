@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"lib": ["ES2019", "dom"],
+		"moduleResolution": "node",
+		"jsx": "react",
+		"allowJs": true,
+		"declaration": true,
+        "declarationDir": "./dist/",
+        "outDir": "./dist/",
+		"sourceMap": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"noImplicitThis": true,
+		"typeRoots": ["./node_modules/@types", "./typings"],
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": false,
+		"emitDecoratorMetadata": false,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": false,
+		"baseUrl": "src"
+	},
+	"include": ["src/**/*"]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "@develersrl/qwebchannel-react",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test-build": "tsc --p ./tsconfig.json --noEmit",
+    "test": "jest --passWithNoTests",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develersrl/qwebchannel-react.git"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/develersrl/qwebchannel-react/issues"
+  },
+  "homepage": "https://github.com/develersrl/qwebchannel-react#readme",
+  "contributors": [
+    "Gennaro Bosone <genbs@develer.com>",
+    "Francesco Cambi <fcambi@develer.com>",
+    "Tommaso Visconti <tommyblue@develer.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.5",
+    "react-test-renderer": "^17.0.2",
+    "typescript": "4.6"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
